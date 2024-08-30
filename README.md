@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Trabalho de Segurança e Auditoria de Sistemas</h2>
+<h1 align="center">Trabalho de Segurança e Auditoria de Sistemas</h1>
 <img src="img/prototipo.png" alt="protótipo do projeto criado no figma" />
 
 <h3>Cifra de César</h3>
