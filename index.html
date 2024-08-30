@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="box-form">
+          <div class="header">
+            <h1>Cifra de César</h1>
+            <span>A Simplicidade e a Eficácia da Criptografia Clássica</span>
+          </div>
+
+          <div class="box-inputs-buttons">
+            <div class="box-inputs">
+              <label for="key"
+                >Valor da chave (deslocamento)
+                <input type="number" placeholder="Chave" name="key" />
+              </label>
+
+              <label for="message"
+                >Mensagem para criptografar ou descriptografar
+                <input type="text" placeholder="Mensagem" name="message" />
+              </label>
+            </div>
+            <div class="box-buttons">
+              <button class="decrypted-button">DESCRIPTOGRAFAR</button>
+              <button class="encrypted-button">CRIPTOGRAFAR</button>
+            </div>
+          </div>
+
+          <div class="clear">
+            <div class="divider"></div>
+            <button class="clear-button">
+              <img src="img/clear.svg" alt="" />
+            </button>
+            <div class="divider"></div>
+          </div>
+
+          <div class="result">
+            <div class="result-space">
+              <span>Mensagem criptografada:</span>
+              <p id="encrypted-message"></p>
+            </div>
+            <div class="result-space">
+              <span>Mensagem descriptografada:</span>
+              <p id="decrypted-message"></p>
+            </div>
+          </div>
+        </div>
+        <div class="box-image">
+          <img src="img/image-cesar.png" alt="Imagem de César" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+        <div class="container-names">
+        <div class="box-names">
+            <div class="header">
+                <h1>Integrantes</h1>
+                <span>Trabalho de Segurança e Auditoria de Sistemas</span>
+            </div>
+
+            <div class="names">
+                <p>Bruno Cirino</p>
+                <p><strong>⋋</strong></p>
+                <p>Ícaro Vieira</p>
+                <p><strong>⋌</strong></p>
+                <p>Jéssica Mattos</p>
+                <p><strong>⋋</strong></p>
+                <p>José Elias Daros</p>
+                <p><strong>⋌</strong></p>    
+                <p>Matheus Zaguetti</p>
+            </div>
+            </div>
+        </div> 
+    -->
+
+    <script src="assets/script.js" defer></script>
+  </body>
+</html>
