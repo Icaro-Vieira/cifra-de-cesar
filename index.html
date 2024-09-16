@@ -1,64 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cifra de César</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cifra de César</title>
-  <link rel="stylesheet" href="assets/styles.css" />
-</head>
-
-<body>
-  <div class="container">
-    <div class="section">
-      <div class="box-form">
-        <div class="header">
-          <h1>Cifra de César</h1>
-          <span>A Simplicidade e a Eficácia da Criptografia Clássica</span>
-        </div>
-
-        <div class="box-inputs-buttons">
-          <div class="box-inputs">
-            <label for="key">Valor da chave (deslocamento)
-              <input type="number" placeholder="Chave" name="key" max="999999999999999" />
-            </label>
-
-            <label for="message">Mensagem para criptografar ou descriptografar
-              <input type="text" placeholder="Mensagem" name="message" />
-            </label>
+  <body>
+    <div class="container">
+      <div class="section">
+        <div class="box-form">
+          <div class="header">
+            <h1>Cifra de César</h1>
+            <span>A Simplicidade e a Eficácia da Criptografia Clássica</span>
           </div>
-          <div class="box-buttons">
-            <button class="decrypted-button">DESCRIPTOGRAFAR</button>
-            <button class="encrypted-button">CRIPTOGRAFAR</button>
-          </div>
-        </div>
 
-        <div class="clear">
-          <div class="divider"></div>
-          <button class="clear-button">
-            <img src="img/clear.svg" alt="" />
-          </button>
-          <div class="divider"></div>
-        </div>
+          <div class="box-inputs-buttons">
+            <div class="box-inputs">
+              <label for="key"
+                >Valor da chave (deslocamento)
+                <input
+                  type="number"
+                  placeholder="Chave"
+                  name="key"
+                  max="999999999999999"
+                />
+              </label>
 
-        <div class="result">
-          <div class="result-space">
-            <span>Mensagem criptografada:</span>
-            <p id="encrypted-message"></p>
+              <label for="message"
+                >Mensagem para criptografar ou descriptografar
+                <input type="text" placeholder="Mensagem" name="message" />
+              </label>
+            </div>
+            <div class="box-buttons">
+              <button class="decrypted-button">DESCRIPTOGRAFAR</button>
+              <button class="encrypted-button">CRIPTOGRAFAR</button>
+            </div>
           </div>
-          <div class="result-space">
-            <span>Mensagem descriptografada:</span>
-            <p id="decrypted-message"></p>
+
+          <div class="clear">
+            <div class="divider"></div>
+            <button class="clear-button">
+              <img src="img/clear.svg" alt="" />
+            </button>
+            <div class="divider"></div>
+          </div>
+
+          <div class="result">
+            <div class="result-space">
+              <span>Mensagem criptografada:</span>
+              <p id="encrypted-message"></p>
+            </div>
+            <div class="result-space">
+              <span>Mensagem descriptografada:</span>
+              <p id="decrypted-message"></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="box-image">
-        <img src="img/image-cesar.png" alt="Imagem de César" />
+        <div class="box-image">
+          <a href="integrantes.html">
+            <img src="img/image-cesar.png" alt="Imagem de César" />
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="assets/script.js" defer></script>
-</body>
-
+    <script src="assets/script.js" defer></script>
+  </body>
 </html>
